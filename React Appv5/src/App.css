@@ -1,0 +1,59 @@
+.app {
+  min-height: 100vh;
+  background: rgb(111, 202, 124);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-size: contain;
+}
+
+.playerBox {
+  height: 300px;
+  width: 350px;
+  background: white;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header {
+  top: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin: 5px;
+  color: white;
+  font-size: 20px;
+}
+
+.data-container {
+  padding-left: 3em;
+  padding-right: 3em;
+  margin-top: 3em;
+}
+
+table {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  font-size: 17px;
+}
+
+.table-labels {
+  color: white;
+}
+
+td, th, tr {
+  width: 50%;
+  border: 1px solid black;
+  border-bottom: 1px solid #ddd;
+}
+
+td {
+  background-color: green;
+}
+
